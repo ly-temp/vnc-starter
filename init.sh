@@ -6,4 +6,5 @@ case $1 in
 esac
 
 openssl req -x509 -nodes -newkey rsa:2048 -keyout /etc/pki/tls/certs/novnc.pem -out /etc/pki/tls/certs/novnc.pem -days 365
+mkdir -p ~/.vnc
 echo 123456 | vncpasswd -f ~/.vnc/passwd && chmod 0600 ~/.vnc/passwd
