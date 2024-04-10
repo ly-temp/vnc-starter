@@ -1,3 +1,5 @@
+#!/bin/sh
+
 #https://www.server-world.info/en/note?os=Fedora_26&p=desktop&f=8
 
 case $1 in
